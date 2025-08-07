@@ -1,0 +1,16 @@
+:root{
+  --primary:#00796b;
+  --muted:#6b7280;
+  font-family: 'Inter', sans-serif;
+}
+body{margin:0;line-height:1.5;}
+.container{max-width:1000px;margin:auto;padding:1rem;}
+header, footer{background:#f4f4f4;padding:1rem;}
+nav ul{list-style:none;padding:0;display:flex;gap:1rem;}
+nav a{text-decoration:none;color:#000;}
+.hero{display:flex;gap:2rem;align-items:center;padding:2rem 0;}
+.btn{padding:0.5rem 1rem;border:none;border-radius:5px;text-decoration:none;display:inline-block;}
+.btn.primary{background:var(--primary);color:#fff;}
+.btn.ghost{border:1px solid var(--primary);color:var(--primary);}
+.section{padding:2rem 0;}
+.bg-light{background:#fafafa;}
